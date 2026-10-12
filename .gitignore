@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Modelos de voz (muy pesados, no caben bien en GitHub)
+*.onnx
+*.bin
+
+# Datos personales y config local
+*.db
+memoria/*.json
+historial.json
+recuerdos.json
+config_usuario.json
+notas/archivos/
+notas/papelera/
+v_temp.wav
+
+
